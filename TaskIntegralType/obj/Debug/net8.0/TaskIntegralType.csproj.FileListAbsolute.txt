@@ -1,0 +1,11 @@
+C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\bin\Debug\net8.0\TaskIntegralType.deps.json
+C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\bin\Debug\net8.0\TaskIntegralType.dll
+C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\bin\Debug\net8.0\TaskIntegralType.pdb
+C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\obj\Debug\net8.0\TaskIntegralType.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\obj\Debug\net8.0\TaskIntegralType.AssemblyInfoInputs.cache
+C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\obj\Debug\net8.0\TaskIntegralType.AssemblyInfo.cs
+C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\obj\Debug\net8.0\TaskIntegralType.csproj.CoreCompileInputs.cache
+C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\obj\Debug\net8.0\TaskIntegralType.dll
+C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\obj\Debug\net8.0\refint\TaskIntegralType.dll
+C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\obj\Debug\net8.0\TaskIntegralType.pdb
+C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\obj\Debug\net8.0\ref\TaskIntegralType.dll
