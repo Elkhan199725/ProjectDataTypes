@@ -17,3 +17,5 @@ C:\Users\Elkhan Mammadli\source\repos\DataTypes\ConsoleAppTask\obj\Debug\net8.0\
 C:\Users\Elkhan Mammadli\source\repos\DataTypes\ConsoleAppTask\obj\Debug\net8.0\ConsoleAppTask.pdb
 C:\Users\Elkhan Mammadli\source\repos\DataTypes\ConsoleAppTask\obj\Debug\net8.0\ConsoleAppTask.genruntimeconfig.cache
 C:\Users\Elkhan Mammadli\source\repos\DataTypes\ConsoleAppTask\obj\Debug\net8.0\ref\ConsoleAppTask.dll
+C:\Users\Elkhan Mammadli\source\repos\DataTypes\ConsoleAppTask\bin\Debug\net8.0\Random Examples.dll
+C:\Users\Elkhan Mammadli\source\repos\DataTypes\ConsoleAppTask\bin\Debug\net8.0\Random Examples.pdb

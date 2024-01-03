@@ -14,6 +14,11 @@
           "ConsoleAppTask.dll": {}
         }
       },
+      "Random Examples/1.0.0": {
+        "runtime": {
+          "Random Examples.dll": {}
+        }
+      },
       "TaskIntegralType/1.0.0": {
         "runtime": {
           "TaskIntegralType.dll": {}
@@ -23,6 +28,11 @@
   },
   "libraries": {
     "ConsoleAppTask/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Random Examples/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Random Examples\Random Examples.csproj" />
     <ProjectReference Include="..\TaskIntegralType\TaskIntegralType.csproj" />
   </ItemGroup>
 

@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskIntegralType", "TaskIntegralType\TaskIntegralType.csproj", "{8D57D1B4-F7FE-476E-9262-3AEF9DAB0140}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskIntegralType", "TaskIntegralType\TaskIntegralType.csproj", "{8D57D1B4-F7FE-476E-9262-3AEF9DAB0140}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppTask", "ConsoleAppTask\ConsoleAppTask.csproj", "{7A808235-262D-4236-BB1E-03EA1078BAAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppTask", "ConsoleAppTask\ConsoleAppTask.csproj", "{7A808235-262D-4236-BB1E-03EA1078BAAF}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2A68317C-CC22-4522-87B1-478F712F0290} = {2A68317C-CC22-4522-87B1-478F712F0290}
 		{8D57D1B4-F7FE-476E-9262-3AEF9DAB0140} = {8D57D1B4-F7FE-476E-9262-3AEF9DAB0140}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerOperations", "IntegerOperations\IntegerOperations.csproj", "{2A68317C-CC22-4522-87B1-478F712F0290}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegerOperations", "IntegerOperations\IntegerOperations.csproj", "{2A68317C-CC22-4522-87B1-478F712F0290}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random Examples", "Random Examples\Random Examples.csproj", "{EE0D9D0A-9A97-4B6D-BD87-ADDA4BA9F7BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{2A68317C-CC22-4522-87B1-478F712F0290}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A68317C-CC22-4522-87B1-478F712F0290}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A68317C-CC22-4522-87B1-478F712F0290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE0D9D0A-9A97-4B6D-BD87-ADDA4BA9F7BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0D9D0A-9A97-4B6D-BD87-ADDA4BA9F7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0D9D0A-9A97-4B6D-BD87-ADDA4BA9F7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0D9D0A-9A97-4B6D-BD87-ADDA4BA9F7BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
