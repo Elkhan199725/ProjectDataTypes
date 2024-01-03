@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Channels;
 using System.Threading.Tasks;
 using TaskIntegralType.Interfaces;
 
@@ -9,76 +10,113 @@ namespace TaskIntegralType.Entities;
 
 public class TaskIntegerOperations : IValues
 {
-    private int num1;
-    private int num2;
-    public int Number1 
-    { 
-        get { return num1; } 
-        set { num1 = value; } 
+    private int num1 ;
+    private int num2 ;
+
+    public int Number1
+    {
+        get { return num1; }
+        set 
+        { 
+            num1 = value;
+        }
     }
-    public int Number2 
-    { 
+
+    public int Number2
+    {
         get { return num2; }
-        set {num2 = value; }
+        set 
+        {
+            num2 = value;
+        }
     }
 
-    public void Addition(int Num1, int Num2, int Sum)
+    public void Addition()
     {
-        Console.WriteLine("Input for num1: ");
-        num1 = Convert.ToInt32(Console.ReadLine());
-        Num1 = num1;
-        Console.WriteLine("Input for num2: ");
-        num2 = Convert.ToInt32((Console.ReadLine()));
-        Num2 = num2;
-        Sum = Num1 + Num2;
-        Console.WriteLine($"Sum of num1 and num2 is: {Sum}");
+        Console.Write("Input for Number1: ");
+        Number1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Input for Number2: ");
+        Number2 = Convert.ToInt32(Console.ReadLine());
+        int Sum = Number1 + Number2;
+        Console.WriteLine($"Sum of Number1 and Number2 is: {Sum}");
     }
 
-    public void Decrement(int Num1, int Num2, int Dec)
+    public void Decrement()
     {
-        Console.WriteLine("Input for num1: ");
-        num1 = Convert.ToInt32(Console.ReadLine());
-        Num1 = num1;
-        Console.WriteLine("Input for num2: ");
-        num2 = Convert.ToInt32((Console.ReadLine()));
-        Num2 = num2;
+        Console.Write("Input for Number1: ");
+        Number1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Input for Number2: ");
+        Number2 = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Decrementing using while loop:");
-        while (Num1 > 0) 
+        while (Number1 > 0) 
         {
-            Console.WriteLine($"Current value of num2: {Num1}");
-            Dec = Num1--;
-            Console.WriteLine($"Dec of num1 is {Dec}");
+            int Decrement = Number1--;
+            Console.WriteLine($"Decrement of Number1 is {Decrement}");
         }     
-        while (Num2 > 0)
+        while (Number2 > 0)
         {
-            Console.WriteLine($"Current value of num2: {Num2}");
-            Dec = Num2--;
-            Console.WriteLine($"Dec of num2 is {Dec}");
+            int Decrement = Number2--;
+            Console.WriteLine($"Decrement of Number2 is {Decrement}");
         }       
     }
 
-    public void Divide(int Num1, int Num2, int Div)
+    public void Divide()
     {
-        throw new NotImplementedException();
+        Console.Write("Input for Number1: ");
+        Number1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Input for Number2: ");
+        Number2 = Convert.ToInt32(Console.ReadLine());
+        if (Number2 == 0) throw new DivideByZeroException();
+        int Divide = Number1 / Number2;
+        Console.WriteLine($"The result of division: {Divide}");
     }
 
-    public void Increment(int Num1, int Num2, int Inc)
+    public void Increment()
     {
-        throw new NotImplementedException();
+        Console.Write("Input for Number1: ");
+        Number1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Input for Number2: ");
+        Number2 = Convert.ToInt32(Console.ReadLine());
+        while (Number1 < 10)
+        {
+            int Increment = Number1++;
+            Console.WriteLine($"Increment of Number1 is {Increment}");
+        }
+        while(Number2 < 10)
+        {
+            int Increment = Number2++;
+            Console.WriteLine($"Increment of Number2 is {Increment}");
+        }
     }
 
-    public void Modulo(int Num1, int Num2, int Mod)
+    public void Modulo()
     {
-        throw new NotImplementedException();
+        Console.Write("Input for Number1: ");
+        Number1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Input for Number2: ");
+        Number2 = Convert.ToInt32(Console.ReadLine());
+        int Modulo = Number1 % Number2;
+        Console.WriteLine($"Modul is: {Modulo}");
     }
 
-    public void Multiplication(int Num1, int Num2, int Multi)
+    public void Multiplication()
     {
-        throw new NotImplementedException();
+        Console.Write("Input for Number1: ");
+        Number1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Input for Number2: ");
+        Number2 = Convert.ToInt32(Console.ReadLine());
+        int Multiplication = Number1 * Number2;
+        Console.WriteLine($"Multiplication of Number1 and Number2: {Multiplication}");
     }
 
-    public void Subtraction(int Num1, int Num2, int Substract)
+    public void Subtraction()
     {
-        throw new NotImplementedException();
+        Console.Write("Input for Number1: ");
+        Number1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Input for Number2: ");
+        Number2 = Convert.ToInt32(Console.ReadLine());
+        int Subtraction = Number1 - Number2;
+        Console.WriteLine($"The subtraction of Number1 and Number2 : {Subtraction}");
+        Console.WriteLine($"The abstract subtraction of Number1 and Number2 : {Math.Abs(Subtraction)}");
     }
 }

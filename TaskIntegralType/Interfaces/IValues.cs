@@ -10,11 +10,11 @@ public interface IValues
 {
     public int Number1 { get; set; }
     public int Number2 { get; set; }
-    void Addition(int Num1, int Num2, int Sum);
-    void Subtraction(int Num1, int Num2, int Substract);
-    void Multiplication(int Num1, int Num2, int Multi);
-    void Divide(int Num1, int Num2, int Div);
-    void Modulo(int Num1, int Num2, int Mod);
-    void Increment(int Num1, int Num2, int Inc);
-    void Decrement(int Num1, int Num2, int Dec);
+    void Addition();
+    void Subtraction();
+    void Multiplication();
+    void Divide();
+    void Modulo();
+    void Increment();
+    void Decrement();
 }

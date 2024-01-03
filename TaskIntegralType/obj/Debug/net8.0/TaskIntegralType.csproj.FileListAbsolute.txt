@@ -9,3 +9,4 @@ C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\obj\Debug\net8.
 C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\obj\Debug\net8.0\refint\TaskIntegralType.dll
 C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\obj\Debug\net8.0\TaskIntegralType.pdb
 C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\obj\Debug\net8.0\ref\TaskIntegralType.dll
+C:\Users\Elkhan Mammadli\source\repos\DataTypes\TaskIntegralType\obj\Debug\net8.0\TaskIntegralType.sourcelink.json
